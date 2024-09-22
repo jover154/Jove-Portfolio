@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/assets/2x2.jpg" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h4 class="logo"><a href="">My Portfolio</a></h4>
+     
+      <nav id="nav-menu">
+        <ul class="nav_links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#acads">Projects</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">
+        <i class="fa fa-bars"></i>
+      </button>
+    </header>
+    
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about">
+        <h3><span>Hello! I am Mark Jover —</span></h3>
+        <h1>I am a aspiring Web Developer</h1>
+        <p>
+          Freshly graduated with a Bachelor of Science in Computer Science
+          <br />
+          (Cum Laude). I'm enthusiastic about starting my career and seeking
+          <br />
+          entry-level opportunities to learn and grow. <br />
+        </p>
+        <a class="about_btn" href="mailto:delacruzmarkjover@gmail.com">
+          <button><i class="fa fa-briefcase"></i> Hire me</button>
+        </a>
+      </div>
+
+      <div class="img_about">
+        <img src="assets/mark.jpg" alt="about img" />
+      </div>
+
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0284c7"
+            fill-opacity="1"
+            d="M0,96L60,96C120,96,240,96,360,101.3C480,107,600,117,720,154.7C840,192,960,256,1080,261.3C1200,267,1320,213,1380,186.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+      <div class="education">
+        <div class="edu-title">
+          <h1>Education</h1>
+          <span>———o———</span>
+          <p>History of Education</p>
+        </div>
+
+        <div class="row">
+          <div class="col1">
+            <h2>Mariano Marcos State University</h2>
+            <p class="date-edu">2020 - 2024</p>
+            <p class="desc-edu">Bachelor of Science in Computer Science</p>
+            <p class="desc-edu">Cum Laude</p>
+          </div>
+
+          <div class="col2">
+            <h2>Universitas Pendidikan Ganesha, Indonesia Undiksha</h2>
+            <p class="date-edu">2022</p>
+            <p class="desc-edu">Program (Computer Networking)</p>
+            <p class="desc-edu">Exchange Credit</p>
+          </div>
+        </div>
+
+        <div class="wave">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path
+              fill="#0284c7"
+              fill-opacity="1"
+              d="M0,320L48,309.3C96,299,192,277,288,256C384,235,480,213,576,224C672,235,768,277,864,282.7C960,288,1056,256,1152,240C1248,224,1344,224,1392,224L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skill">
+      <div class="skill">
+        <div class="skill-title">
+          <h1>Skills</h1>
+          <span>——o—o——</span>
+          <p>Programming languages<br />and tools.</p>
+        </div>
+
+        <div class="flex-wrapper">
+          <div class="skill-item">
+            <img src="assets/html.png" alt="HTML" class="skill-icon" />
+            <p class="skill-name">HTML</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/css.svg" alt="CSS" class="skill-icon" />
+            <p class="skill-name">CSS</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/js.png" alt="JavaScript" class="skill-icon" />
+            <p class="skill-name">JavaScript</p>
+          </div>
+          <div class="skill-item">
+            <img
+              src="assets/bootstrap.png"
+              alt="Bootstrap"
+              class="skill-icon"
+              width="80"
+            />
+            <p class="skill-name">Bootstrap</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/Git.png" alt="GitHub" class="skill-icon" />
+            <p class="skill-name">Git</p>
+          </div>
+          <div class="skill-item">
+            <img src="assets/figma.png" alt="Figma" class="skill-icon" />
+            <p class="skill-name">Figma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="acads" class="py-5">
+      <div class="container">
+        <div class="acad text-center mb-5">
+          <div class="acad-title">
+            <h1>Projects</h1>
+            <span>——o—o—o——</span>
+            <p>Academic Projects</p>
+          </div>
+        </div>
+        <div class="card-deck">
+          <div class="card">
+            <a href="https://localhost:7077/" target="_blank">
+            <img src="/assets/BB.png" class="card-img-top" alt="Project 1" />
+            <div class="card-body">
+              <h5 class="card-title">Inventory Management System</h5>
+              <p class="card-text">
+                This system was designed to assist administrators in efficiently
+                managing stock levels, ensuring that inventory was always up to
+                date.
+              </p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >Language: ASP.NET MVC, HTML, CSS, and Bootstrap</small
+                >
+              </p>
+            </a>
+            </div>
+          </div>
+          <div class="card">
+            <a
+              href="http://127.0.0.1:5500/Caesar%20Cipher%20Web/index.html"
+              target="_blank"
+            >
+            <img src="/assets/cc.png" class="card-img-top" alt="Project 2" />
+            <div class="card-body">
+              <h5 class="card-title">CAESAR CIPHER</h5>
+              <p class="card-text">A basic cryptography techniques.</p>
+              <p class="card-text">
+                <small class="text-muted"
+                  >Language: HTML, CSS, JavaScript</small
+                >
+              </p>
+            </a>
+            </div>
+          </div>
+          <div class="card">
+            <a
+              href="https://www.figma.com/proto/oMkuI1KA4E5VqkuYD44Wfe/Project-Management-Tracking-System-(Prototype)?node-id=410-33210&t=6A5Xi4JpKeQa53rs-0&scaling=min-zoom&content-scaling=fixed&page-id=268%3A1682&starting-point-node-id=410%3A33210"
+              target="_blank"
+            >
+              <img src="/assets/dt.png" class="card-img-top" alt="Project 3" />
+              <div class="card-body">
+                <h5 class="card-title">Dream Team</h5>
+                <p class="card-text">
+                  A platform for monitoring project progress and fostering
+                  seamless collaboration.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Technology used: Figma</small>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#0284c7"
+            fill-opacity="1"
+            d="M0,128L48,117.3C96,107,192,85,288,85.3C384,85,480,107,576,101.3C672,96,768,64,864,69.3C960,75,1056,117,1152,117.3C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="foot-content">
+        <p>Interest with me ?</p>
+        <p>Follow My Social Media</p>
+
+        <div class="social-icons">
+          <a
+            href="https://www.linkedin.com/in/mark-jover-dela-cruz-7b59bb317"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin-square"></i>
+          </a>
+          <a
+            href="https://github.com/jover154?tab=overview&from=2024-07-01&to=2024-07-30"
+            target="_blank"
+          >
+            <i class="fa fa-github"></i>
+          </a>
+          
+        </div>
+
+        <div class="createby">
+          <p>&copy; Mark Jover R. Dela Cruz, 2024.</p>
+          <p>All rights reserved.</p> 
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
